@@ -18,6 +18,23 @@ def find_min_in_nested_arrays(src)
   #end
   #12. return mins
 #end
+  
+  mins = []
+  row = 0
+  while row < src.length do
+    i = 0 
+    while i < src[row].length do
+      min = 0 
+      if src[row][i] > min 
+        min = src[row][i]
+      end
+      i += 1
+    end
+    mins << min 
+    row += 1 
+  end
+  mins
+end
       
         
     
