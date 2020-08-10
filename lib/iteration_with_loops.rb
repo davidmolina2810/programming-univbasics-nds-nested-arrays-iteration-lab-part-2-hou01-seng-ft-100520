@@ -20,10 +20,10 @@ def find_min_in_nested_arrays(src)
 #end
   
   mins = []
+  min = 0 
   row = 0
   while row < src.length do
     i = 0 
-    min = 0
     while i < src[row].length do
       if src[row][i] > min 
         min = src[row][i]
