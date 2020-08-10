@@ -23,7 +23,7 @@ def find_min_in_nested_arrays(src)
   row = 0
   while row < src.length do
     i = 0 
-    min = -1
+    min = 100000000000000000000000000000000000
     while i < src[row].length do
       if src[row][i] < min 
         min = src[row][i]
